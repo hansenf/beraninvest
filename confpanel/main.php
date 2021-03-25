@@ -48,10 +48,10 @@ MAIN CONTENT
                     <?php
                     // Menampilkan Jumlah Tabel Pada Database
                     $servername = "localhost";
-                    $username = "root";
-                    $password = "";
-                    $dbname = "db_companyprofile";
-
+                    $username = "bere3277_hans";
+                    $password = "Cprofile17-";
+                    $dbname = "bere3277_cprofile";
+                    
                     // Create connection
                     $conn = new mysqli($servername, $username, $password, $dbname);
                     // Check connection
