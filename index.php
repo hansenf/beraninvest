@@ -1,5 +1,5 @@
 <?php
-    $link = mysqli_connect('localhost','root','','db_companyprofile');
+    $link = mysqli_connect('localhost','bere3277_hans','Cprofile17-','bere3277_cprofile');
     include "control.php"; 
     
     $mysqli = new databases();  
