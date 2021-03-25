@@ -70,8 +70,7 @@ if ($module == "add"){
 
                           
                           <label class=\"col-sm-2 col-sm-2 control-label\">Upload Gambar</label>
-                          <div class=\"col-sm-10\"> 
-                          <input type=\"file\" class=\"\" name=\"icon\" oninvalid=\"alert('Gambar belum di upload !');\"><p></p>
+                          <div class=\"col-sm-10\">            
                           </div>
                          
 
