@@ -4,7 +4,7 @@ if (!isset($_SESSION)){
     @session_start();
 }
     //Membuat batasan waktu sesion untuk user di PHP 
-    $timeout = 5; // Set timeout menit
+    $timeout = 10; // Set timeout menit
     $logout_redirect_url = "index.php"; // Set logout URL
 
     $timeout = $timeout * 30; // Ubah menit ke detik
