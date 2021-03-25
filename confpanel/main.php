@@ -90,7 +90,7 @@ MAIN CONTENT
               <?php 
               include 'chart\statistikbar.php';
 
-              $konek = mysqli_connect("localhost","root","","db_companyprofile");
+              $konek = mysqli_connect("localhost","bere3277_hans","Cprofile17-","bere3277_cprofile");
 
               //$tgl_skrg = date("Ymd"); // dapatkan tanggal sekarang saat online
               $tgl_skrg = date("20130918"); // untuk simulasi saja sesuai dengan di database
