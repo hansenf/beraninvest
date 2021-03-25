@@ -7,7 +7,8 @@ $ip      = $_SERVER['REMOTE_ADDR']; // Dapatkan IP user
 $tanggal = date("Ymd"); // Dapatkan tanggal sekarang
 $waktu   = time(); // Dapatkan nilai waktu
 
-$konek = mysqli_connect("localhost","root","","db_companyprofile");
+$konek = mysqli_connect("localhost","bere3277_hans","Cprofile17-
+","bere3277_cpro");
 
 // Cek user yang mengakses berdasarkan IP-nya 
 $s = mysqli_query($konek, "SELECT * FROM statistik WHERE ip='$ip' AND tanggal='$tanggal'");
