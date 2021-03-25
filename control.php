@@ -15,9 +15,9 @@ function language($lang){
 //Koneksi ke database
 class databases {
 	public $host   = 'localhost';
-	public $name   = 'root';
-	public $pass   = '';
-	Public $dbname = 'db_companyprofile';
+	public $name   = 'bere3277_hans';
+	public $pass   = 'Cprofile17-';
+	Public $dbname = 'bere3277_cprofile';
 	public $mysqli;
 
 	//fungsi menguji koneksi database
