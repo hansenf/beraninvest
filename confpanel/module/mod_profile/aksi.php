@@ -194,7 +194,7 @@ if ($module == "edit"){
                             </div>
                           </div>
 
-                          <input type=\"file\" accept=\"image/*\" onchange=\"preview_image(this,'preview')\" class=\"\" name=\"icon\" value=\"$showprofile[icon]\" oninvalid=\"alert('Gambar belum di upload !');\">
+                          <input type=\"file\" accept=\"image/*\" onchange=\"preview_image(this,'preview')\" class=\"\" name=\"icon\" value=\"$showprofile[icon]\"\">
                           </div>
 
                           <label class=\"col-sm-2 col-sm-2 control-label\">Bahasa</label>
