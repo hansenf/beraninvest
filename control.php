@@ -24,7 +24,7 @@ class databases {
 		function __construct(){
 		$this->mysqli = new mysqli($this->host, $this->name, $this->pass, $this->dbname);
 		if ($this->mysqli->connect_errno){
-			echo "databse not found";
+			echo "database not found";
 			exit;
 			}
 		}
