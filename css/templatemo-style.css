@@ -138,7 +138,7 @@ p {
 }
 .navbar-brand em {
 	font-style: normal;
-	color: #f7c552;
+	color: #f75252;
 	font-size: 30px;
 }
 .header.active .navbar-brand {
@@ -232,7 +232,7 @@ bootstrap.min.css:5
 
 .baner-content .text-content h2 span {
 	font-weight: 700;
-	color: #33c1cf!important;
+	color: #cf3333!important;
 }
 
 .baner-content .text-content h2 em {
