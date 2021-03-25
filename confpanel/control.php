@@ -1,6 +1,5 @@
 <?php
-$link     = mysqli_connect('localhost','bere3277_hans','Cprofile17-
-','bere3277_cprofile');
+$link     = mysqli_connect('localhost','bere3277_hans','Cprofile17-','bere3277_cprofile');
 
 // Menampilkan Data Tabel Services
 $perpage_services  = 5;

@@ -4,8 +4,7 @@
     <?php 
     include 'timer_module.php';
 
-    $link   = mysqli_connect('localhost', 'bere3277_hans', 'Cprofile17-
-	','bere3277_cprofile');
+    $link   = mysqli_connect('localhost', 'bere3277_hans', 'Cprofile17-','bere3277_cprofile');
     $tampilprofiladmin = mysqli_query ($link, "SELECT * FROM tbl_profile ORDER BY id_profile ASC LIMIT 1");
     while ($showprofiladmin = mysqli_fetch_assoc($tampilprofiladmin)) { 
     echo "

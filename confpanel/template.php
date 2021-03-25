@@ -8,7 +8,7 @@
     if (empty($_SESSION['username']) AND empty($_SESSION['password'])){
         echo "<script>alert('Akses ditolak !!! Silahkan sign ini terlebih dahulu, Terimakasih.'); window.location = 'index.php'</script>";
     }else{
-    $link   = mysqli_connect('localhost', 'root', '','db_companyprofile');
+    $link   = mysqli_connect('localhost', 'bere3277_hans', 'Cprofile17-','bere3277_cprofile');
     $tampilprofiladmin = mysqli_query ($link, "SELECT * FROM tbl_profile ORDER BY id_profile ASC LIMIT 1");
     while ($showprofiladmin = mysqli_fetch_assoc($tampilprofiladmin)) { 
     echo "
