@@ -3,7 +3,8 @@
 
 if (isset($_POST['submit']))
 {
-	$link   = mysqli_connect('localhost', 'root', '','db_companyprofile');
+	$link   = mysqli_connect('localhost', 'bere3277_hans', 'Cprofile17-
+	','bere3277_cprofile');
 
 	//menampung variable
 	$username=$_POST['username'];
